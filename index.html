@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desktop Widgets</title>
+<style>
+  :root { --bg:#f5f5f7; --card:#fff; --ink:#1d1d1f; --dim:#6e6e73; --accent:#0071e3; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#000; --card:#1c1c1e; --ink:#f5f5f7; --dim:#a1a1a6; --accent:#2997ff; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 -apple-system,"Segoe UI",Inter,Roboto,sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:56px 20px; }
+  .card { background:var(--card); border-radius:20px; padding:32px; }
+  h1 { font-size:32px; margin:0 0 8px; letter-spacing:-.5px; }
+  p.lead { color:var(--dim); margin:0 0 24px; }
+  li { margin:6px 0; }
+  a { color:var(--accent); text-decoration:none; }
+  footer { color:var(--dim); font-size:13px; text-align:center; margin-top:24px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>Desktop Widgets</h1>
+    <p class="lead">A small set of personal desktop widgets for Windows 11, made for my own use.</p>
+    <p>The <strong>Calendar widget</strong> shows today's events and Google Tasks from my Google accounts, and lets me add events, meetings and tasks from the desktop. It uses the Google Calendar API and the Google Tasks API.</p>
+    <ul>
+      <li>Runs only on my own computer.</li>
+      <li>Not offered to the public, and not sold.</li>
+      <li>Google data is never sent to any server other than Google's own.</li>
+    </ul>
+    <p>Read the <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+  <footer>Desktop Widgets · personal project</footer>
+</main>
+</body>
+</html>
